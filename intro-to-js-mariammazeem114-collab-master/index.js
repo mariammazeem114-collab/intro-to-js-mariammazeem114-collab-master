@@ -25,7 +25,7 @@ function findLargest(numbers) {
   if (numbers.length === 0) {
     return null;
   }
-  return Math.max.apply(null, numbers);
+    return Math.max.apply(null, numbers);
   // TODO: Implement this function.
 }
 
@@ -36,7 +36,7 @@ function findLargest(numbers) {
  * The check should be case-insensitive.
  */
 function isPalindrome(str) {
-   return numbers.filter(function(num) {
+    return numbers.filter(function(num) {
     return num % 2 === 0;
    });
   // TODO: Implement this function.
@@ -47,7 +47,7 @@ function isPalindrome(str) {
  * @returns {number[]} A new array containing only the even numbers from the original array.
  */
 function filterEvenNumbers(numbers) {
-  return numbers.filter(function(num) {
+    return numbers.filter(function(num) {
     return num % 2 === 0;
   });
   // TODO: Implement this function.
